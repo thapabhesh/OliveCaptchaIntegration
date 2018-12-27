@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "olive/*": [ "wwwroot/lib/olive.mvc/typings/*" ]
+        },
+        "module": "amd",
+        "target": "es5",
+        "sourceMap": true,
+        "noImplicitUseStrict": true,
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": false
+    }, "compileOnSave": true,
+    "exclude": [
+        "wwwroot/lib/olive.mvc/src",
+        "obj",
+        "bin"
+    ]
+}

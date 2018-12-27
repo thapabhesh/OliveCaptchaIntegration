@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <MvcRazorCompileOnPublish>true</MvcRazorCompileOnPublish>
+    <TypeScriptToolsVersion>3.0</TypeScriptToolsVersion>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <TieredCompilation>true</TieredCompilation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;1705;1998;NU1701</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DefaultItemExcludes>node_modules\**;$(DefaultItemExcludes)</DefaultItemExcludes>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="App_Data\**" />
+    <Content Remove="App_Data\**" />
+    <EmbeddedResource Remove="App_Data\**" />
+    <None Remove="App_Data\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\scripts\components\CustomModule1.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\styles\FrontEnd-Modal.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Captcha" Version="4.4.0" />
+    <PackageReference Include="Hangfire" Version="1.6.21" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="2.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="2.1.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Olive" Version="2.1.152" />
+    <PackageReference Include="Olive.Audit" Version="2.1.102" />
+    <PackageReference Include="Olive.Audit.DatabaseLogger" Version="2.1.102" />
+    <PackageReference Include="Olive.CSV" Version="2.1.102" />
+    <PackageReference Include="Olive.Drawing" Version="2.1.102" />
+    <PackageReference Include="Olive.Encryption" Version="2.2.102" />
+    <PackageReference Include="Olive.Entities" Version="2.1.102" />
+    <PackageReference Include="Olive.Entities.Data" Version="2.1.102" />
+    <PackageReference Include="Olive.Entities.Data.SqlServer" Version="2.1.102" />
+    <PackageReference Include="Olive.Export" Version="2.1.103" />
+    <PackageReference Include="Olive.Hangfire" Version="2.1.102" />
+    <PackageReference Include="Olive.Integration" Version="1.0.7" />
+    <PackageReference Include="Olive.Mvc" Version="2.1.102" />
+    <PackageReference Include="Olive.Mvc.Paging" Version="2.1.102" />
+    <PackageReference Include="Olive.PDF" Version="2.1.102" />
+    <PackageReference Include="Olive.Mvc.Security" Version="2.2.102" />
+    <PackageReference Include="Olive.Security.Auth0" Version="2.1.102" />
+    <PackageReference Include="Olive.Security.Impersonation" Version="2.1.102" />
+    <PackageReference Include="Olive.Testing" Version="2.1.102" />
+    <PackageReference Include="Olive.Web" Version="2.2.102" />
+    <PackageReference Include="Olive.GlobalSearch.Source" Version="1.0.38" />
+    <PackageReference Include="SkiaSharp" Version="1.68.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\scripts\components\CustomModule1.ts" />
+  </ItemGroup>
+  <UsingTask AssemblyFile="wwwroot\Styles\build\SassCompiler.exe" TaskName="WebCompiler.CompilerBuildTask" />
+  <UsingTask AssemblyFile="wwwroot\Styles\build\SassCompiler.exe" TaskName="WebCompiler.CompilerCleanTask" />
+
+  <Target Name="WebCompile" AfterTargets="PostBuildEvent" Condition="'$(RunWebCompiler)' != 'False'">
+    <WebCompiler.CompilerBuildTask ContinueOnError="true" FileName="$(MSBuildProjectDirectory)\compilerconfig.json" />
+  </Target>
+  <Target Name="WebCompileClean" AfterTargets="CoreClean" Condition="'$(RunWebCompiler)' != 'False'">
+    <WebCompiler.CompilerCleanTask ContinueOnError="true" FileName="$(MSBuildProjectDirectory)\compilerconfig.json" />
+  </Target>
+</Project>

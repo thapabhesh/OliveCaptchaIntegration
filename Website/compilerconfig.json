@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "wwwroot/styles/Blank.css",
+    "inputFile": "wwwroot/styles/Blank.scss"
+  },
+  {
+    "outputFile": "wwwroot/styles/FrontEnd.css",
+    "inputFile": "wwwroot/styles/FrontEnd.scss"
+  },
+  {
+    "outputFile": "wwwroot/styles/FrontEnd-Modal.css",
+    "inputFile": "wwwroot/styles/FrontEnd-Modal.scss"
+  }
+]
