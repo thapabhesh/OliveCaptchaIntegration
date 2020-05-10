@@ -65,9 +65,10 @@ bootstrap-spinedit@BrandyMint/bootstrap-spinedit#*:
   version "0.0.0"
   resolved "https://codeload.github.com/BrandyMint/bootstrap-spinedit/tar.gz/fc6d3240f4cd35770ab43be1b76e59cf4606efb0"
 
-bootstrap@>=2.0.0, bootstrap@twbs/bootstrap#>=4.0.0:
-  version "4.2.1"
-  resolved "https://codeload.github.com/twbs/bootstrap/tar.gz/9e4e94747bd698f4f61d48ed54c9c6d4d199bd32"
+bootstrap@>=2.0.0, bootstrap@twbs/bootstrap#>=4.3.1:
+  version "4.4.1"
+  uid dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb
+  resolved "https://codeload.github.com/twbs/bootstrap/tar.gz/dca1ab7d877bc4b664b43604657a2b5fbe2b4ecb"
 
 bootstrap@^3.0, bootstrap@^3.3.5:
   version "3.4.0"
