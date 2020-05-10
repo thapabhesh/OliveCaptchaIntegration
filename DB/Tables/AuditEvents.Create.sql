@@ -1,4 +1,4 @@
--- AuditEvents Table ========================
+﻿-- AuditEvents Table ========================
 CREATE TABLE AuditEvents (
     Id uniqueidentifier PRIMARY KEY NONCLUSTERED,
     UserId nvarchar(200)  NULL,
@@ -7,6 +7,7 @@ CREATE TABLE AuditEvents (
     ItemType nvarchar(200)  NULL,
     ItemId nvarchar(500)  NULL,
     ItemData nvarchar(MAX)  NULL,
-    UserIp nvarchar(200)  NULL
+    UserIp nvarchar(200)  NULL,
+    ItemGroup nvarchar(200)  NULL
 );
 

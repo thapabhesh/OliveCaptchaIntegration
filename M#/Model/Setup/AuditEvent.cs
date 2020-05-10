@@ -15,6 +15,7 @@ namespace Domain
             String("Item id", 500);
             BigString("Item data");
             String("User Ip");
+            String("Item group");
         }
     }
 }

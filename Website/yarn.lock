@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@fortawesome/fontawesome-free@^5.4.2":
-  version "5.6.3"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.6.3.tgz#61c122c420d7a91613f393d6a06e5a4c6ae6abf3"
-  integrity sha512-s5PLdI9NYgjBvfrv6rhirPHlAHWx+Sfo/IjsAeiXYfmemC/GSjwsyz1wLnGPazbLPXWfk62ks980o9AmsxYUEQ==
+"@fortawesome/fontawesome-free@~5.4.2":
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.4.2.tgz#b2d782da69c45ea61954291e2615a8f7741c96b2"
+  integrity sha512-lpruVv/4AkKUujyzHCNJ8yOceBf7Na/pFaX52ZI/BFMCYkUEwiQ1P0viZg//+WelrNNEgvMOvCMDEDaOMZ/u1w==
 
 alertify-bootstrap-3@dbtek/alertify-bootstrap-3#~1.1.1:
   version "0.0.0"
@@ -339,9 +339,9 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-olive.mvc@Geeksltd/Olive.MvcJs#0.9.175:
+olive.mvc@Geeksltd/Olive.MvcJs#*:
   version "0.0.0"
-  resolved "https://codeload.github.com/Geeksltd/Olive.MvcJs/tar.gz/d4b8760e70756d8e00c8bde157b85dfc943e2d33"
+  resolved "https://codeload.github.com/Geeksltd/Olive.MvcJs/tar.gz/cca0e7c8f5e24ab03f09a73aaf37cbe09baf24d7"
 
 os-locale@^1.4.0:
   version "1.4.0"

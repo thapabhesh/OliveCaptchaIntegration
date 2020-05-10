@@ -7049,7 +7049,7 @@ a.text-dark:hover, a.text-dark:focus {
     @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }*/
 /*!
- * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 .fa,
@@ -7198,7 +7198,7 @@ a.text-dark:hover, a.text-dark:focus {
   line-height: 2em;
   position: relative;
   vertical-align: middle;
-  width: 2.5em; }
+  width: 2em; }
 
 .fa-stack-1x,
 .fa-stack-2x {
@@ -7244,9 +7244,6 @@ readers do not read off random characters that represent icons */
 
 .fa-adn:before {
   content: "\f170"; }
-
-.fa-adobe:before {
-  content: "\f778"; }
 
 .fa-adversal:before {
   content: "\f36a"; }
@@ -7407,9 +7404,6 @@ readers do not read off random characters that represent icons */
 .fa-arrows-alt-v:before {
   content: "\f338"; }
 
-.fa-artstation:before {
-  content: "\f77a"; }
-
 .fa-assistive-listening-systems:before {
   content: "\f2a2"; }
 
@@ -7424,9 +7418,6 @@ readers do not read off random characters that represent icons */
 
 .fa-atlas:before {
   content: "\f558"; }
-
-.fa-atlassian:before {
-  content: "\f77b"; }
 
 .fa-atom:before {
   content: "\f5d2"; }
@@ -7451,12 +7442,6 @@ readers do not read off random characters that represent icons */
 
 .fa-aws:before {
   content: "\f375"; }
-
-.fa-baby:before {
-  content: "\f77c"; }
-
-.fa-baby-carriage:before {
-  content: "\f77d"; }
 
 .fa-backspace:before {
   content: "\f55a"; }
@@ -7539,9 +7524,6 @@ readers do not read off random characters that represent icons */
 .fa-binoculars:before {
   content: "\f1e5"; }
 
-.fa-biohazard:before {
-  content: "\f780"; }
-
 .fa-birthday-cake:before {
   content: "\f1fd"; }
 
@@ -7568,9 +7550,6 @@ readers do not read off random characters that represent icons */
 
 .fa-blind:before {
   content: "\f29d"; }
-
-.fa-blog:before {
-  content: "\f781"; }
 
 .fa-blogger:before {
   content: "\f37c"; }
@@ -7692,9 +7671,6 @@ readers do not read off random characters that represent icons */
 .fa-calendar-check:before {
   content: "\f274"; }
 
-.fa-calendar-day:before {
-  content: "\f783"; }
-
 .fa-calendar-minus:before {
   content: "\f272"; }
 
@@ -7704,9 +7680,6 @@ readers do not read off random characters that represent icons */
 .fa-calendar-times:before {
   content: "\f273"; }
 
-.fa-calendar-week:before {
-  content: "\f784"; }
-
 .fa-camera:before {
   content: "\f030"; }
 
@@ -7715,12 +7688,6 @@ readers do not read off random characters that represent icons */
 
 .fa-campground:before {
   content: "\f6bb"; }
-
-.fa-canadian-maple-leaf:before {
-  content: "\f785"; }
-
-.fa-candy-cane:before {
-  content: "\f786"; }
 
 .fa-cannabis:before {
   content: "\f55f"; }
@@ -7767,17 +7734,11 @@ readers do not read off random characters that represent icons */
 .fa-caret-up:before {
   content: "\f0d8"; }
 
-.fa-carrot:before {
-  content: "\f787"; }
-
 .fa-cart-arrow-down:before {
   content: "\f218"; }
 
 .fa-cart-plus:before {
   content: "\f217"; }
-
-.fa-cash-register:before {
-  content: "\f788"; }
 
 .fa-cat:before {
   content: "\f6be"; }
@@ -7814,9 +7775,6 @@ readers do not read off random characters that represent icons */
 
 .fa-centercode:before {
   content: "\f380"; }
-
-.fa-centos:before {
-  content: "\f789"; }
 
 .fa-certificate:before {
   content: "\f0a3"; }
@@ -7947,26 +7905,11 @@ readers do not read off random characters that represent icons */
 .fa-cloud-download-alt:before {
   content: "\f381"; }
 
-.fa-cloud-meatball:before {
-  content: "\f73b"; }
-
 .fa-cloud-moon:before {
   content: "\f6c3"; }
 
-.fa-cloud-moon-rain:before {
-  content: "\f73c"; }
-
-.fa-cloud-rain:before {
-  content: "\f73d"; }
-
-.fa-cloud-showers-heavy:before {
-  content: "\f740"; }
-
 .fa-cloud-sun:before {
   content: "\f6c4"; }
-
-.fa-cloud-sun-rain:before {
-  content: "\f743"; }
 
 .fa-cloud-upload-alt:before {
   content: "\f382"; }
@@ -8040,14 +7983,8 @@ readers do not read off random characters that represent icons */
 .fa-compress:before {
   content: "\f066"; }
 
-.fa-compress-arrows-alt:before {
-  content: "\f78c"; }
-
 .fa-concierge-bell:before {
   content: "\f562"; }
-
-.fa-confluence:before {
-  content: "\f78d"; }
 
 .fa-connectdevelop:before {
   content: "\f20e"; }
@@ -8175,9 +8112,6 @@ readers do not read off random characters that represent icons */
 .fa-delicious:before {
   content: "\f1a5"; }
 
-.fa-democrat:before {
-  content: "\f747"; }
-
 .fa-deploydog:before {
   content: "\f38e"; }
 
@@ -8196,14 +8130,8 @@ readers do not read off random characters that represent icons */
 .fa-dharmachakra:before {
   content: "\f655"; }
 
-.fa-dhl:before {
-  content: "\f790"; }
-
 .fa-diagnoses:before {
   content: "\f470"; }
-
-.fa-diaspora:before {
-  content: "\f791"; }
 
 .fa-dice:before {
   content: "\f522"; }
@@ -8331,12 +8259,6 @@ readers do not read off random characters that represent icons */
 .fa-dumbbell:before {
   content: "\f44b"; }
 
-.fa-dumpster:before {
-  content: "\f793"; }
-
-.fa-dumpster-fire:before {
-  content: "\f794"; }
-
 .fa-dungeon:before {
   content: "\f6d9"; }
 
@@ -8402,9 +8324,6 @@ readers do not read off random characters that represent icons */
 
 .fa-ethereum:before {
   content: "\f42e"; }
-
-.fa-ethernet:before {
-  content: "\f796"; }
 
 .fa-etsy:before {
   content: "\f2d7"; }
@@ -8478,20 +8397,11 @@ readers do not read off random characters that represent icons */
 .fa-feather-alt:before {
   content: "\f56b"; }
 
-.fa-fedex:before {
-  content: "\f797"; }
-
-.fa-fedora:before {
-  content: "\f798"; }
-
 .fa-female:before {
   content: "\f182"; }
 
 .fa-fighter-jet:before {
   content: "\f0fb"; }
-
-.fa-figma:before {
-  content: "\f799"; }
 
 .fa-file:before {
   content: "\f15b"; }
@@ -8580,9 +8490,6 @@ readers do not read off random characters that represent icons */
 .fa-fire:before {
   content: "\f06d"; }
 
-.fa-fire-alt:before {
-  content: "\f7e4"; }
-
 .fa-fire-extinguisher:before {
   content: "\f134"; }
 
@@ -8612,9 +8519,6 @@ readers do not read off random characters that represent icons */
 
 .fa-flag-checkered:before {
   content: "\f11e"; }
-
-.fa-flag-usa:before {
-  content: "\f74d"; }
 
 .fa-flask:before {
   content: "\f0c3"; }
@@ -8742,9 +8646,6 @@ readers do not read off random characters that represent icons */
 .fa-gift:before {
   content: "\f06b"; }
 
-.fa-gifts:before {
-  content: "\f79c"; }
-
 .fa-git:before {
   content: "\f1d3"; }
 
@@ -8769,17 +8670,11 @@ readers do not read off random characters that represent icons */
 .fa-gitter:before {
   content: "\f426"; }
 
-.fa-glass-cheers:before {
-  content: "\f79f"; }
-
 .fa-glass-martini:before {
   content: "\f000"; }
 
 .fa-glass-martini-alt:before {
   content: "\f57b"; }
-
-.fa-glass-whiskey:before {
-  content: "\f7a0"; }
 
 .fa-glasses:before {
   content: "\f530"; }
@@ -8801,9 +8696,6 @@ readers do not read off random characters that represent icons */
 
 .fa-globe-asia:before {
   content: "\f57e"; }
-
-.fa-globe-europe:before {
-  content: "\f7a2"; }
 
 .fa-gofore:before {
   content: "\f3a7"; }
@@ -8901,12 +8793,6 @@ readers do not read off random characters that represent icons */
 .fa-grip-horizontal:before {
   content: "\f58d"; }
 
-.fa-grip-lines:before {
-  content: "\f7a4"; }
-
-.fa-grip-lines-vertical:before {
-  content: "\f7a5"; }
-
 .fa-grip-vertical:before {
   content: "\f58e"; }
 
@@ -8915,9 +8801,6 @@ readers do not read off random characters that represent icons */
 
 .fa-grunt:before {
   content: "\f3ad"; }
-
-.fa-guitar:before {
-  content: "\f7a6"; }
 
 .fa-gulp:before {
   content: "\f3ae"; }
@@ -9021,9 +8904,6 @@ readers do not read off random characters that represent icons */
 .fa-heart:before {
   content: "\f004"; }
 
-.fa-heart-broken:before {
-  content: "\f7a9"; }
-
 .fa-heartbeat:before {
   content: "\f21e"; }
 
@@ -9051,9 +8931,6 @@ readers do not read off random characters that represent icons */
 .fa-hockey-puck:before {
   content: "\f453"; }
 
-.fa-holly-berry:before {
-  content: "\f7aa"; }
-
 .fa-home:before {
   content: "\f015"; }
 
@@ -9065,9 +8942,6 @@ readers do not read off random characters that represent icons */
 
 .fa-horse:before {
   content: "\f6f0"; }
-
-.fa-horse-head:before {
-  content: "\f7ab"; }
 
 .fa-hospital:before {
   content: "\f0f8"; }
@@ -9117,9 +8991,6 @@ readers do not read off random characters that represent icons */
 .fa-i-cursor:before {
   content: "\f246"; }
 
-.fa-icicles:before {
-  content: "\f7ad"; }
-
 .fa-id-badge:before {
   content: "\f2c1"; }
 
@@ -9128,9 +8999,6 @@ readers do not read off random characters that represent icons */
 
 .fa-id-card-alt:before {
   content: "\f47f"; }
-
-.fa-igloo:before {
-  content: "\f7ae"; }
 
 .fa-image:before {
   content: "\f03e"; }
@@ -9162,14 +9030,8 @@ readers do not read off random characters that represent icons */
 .fa-instagram:before {
   content: "\f16d"; }
 
-.fa-intercom:before {
-  content: "\f7af"; }
-
 .fa-internet-explorer:before {
   content: "\f26b"; }
-
-.fa-invision:before {
-  content: "\f7b0"; }
 
 .fa-ioxhost:before {
   content: "\f208"; }
@@ -9194,9 +9056,6 @@ readers do not read off random characters that represent icons */
 
 .fa-jenkins:before {
   content: "\f3b6"; }
-
-.fa-jira:before {
-  content: "\f7b1"; }
 
 .fa-joget:before {
   content: "\f3b7"; }
@@ -9498,17 +9357,11 @@ readers do not read off random characters that represent icons */
 .fa-memory:before {
   content: "\f538"; }
 
-.fa-mendeley:before {
-  content: "\f7b3"; }
-
 .fa-menorah:before {
   content: "\f676"; }
 
 .fa-mercury:before {
   content: "\f223"; }
-
-.fa-meteor:before {
-  content: "\f753"; }
 
 .fa-microchip:before {
   content: "\f2db"; }
@@ -9539,9 +9392,6 @@ readers do not read off random characters that represent icons */
 
 .fa-minus-square:before {
   content: "\f146"; }
-
-.fa-mitten:before {
-  content: "\f7b5"; }
 
 .fa-mix:before {
   content: "\f3cb"; }
@@ -9602,9 +9452,6 @@ readers do not read off random characters that represent icons */
 
 .fa-mouse-pointer:before {
   content: "\f245"; }
-
-.fa-mug-hot:before {
-  content: "\f7b6"; }
 
 .fa-music:before {
   content: "\f001"; }
@@ -9792,9 +9639,6 @@ readers do not read off random characters that represent icons */
 .fa-periscope:before {
   content: "\f3da"; }
 
-.fa-person-booth:before {
-  content: "\f756"; }
-
 .fa-phabricator:before {
   content: "\f3db"; }
 
@@ -9891,9 +9735,6 @@ readers do not read off random characters that represent icons */
 .fa-poo:before {
   content: "\f2fe"; }
 
-.fa-poo-storm:before {
-  content: "\f75a"; }
-
 .fa-poop:before {
   content: "\f619"; }
 
@@ -9975,29 +9816,14 @@ readers do not read off random characters that represent icons */
 .fa-r-project:before {
   content: "\f4f7"; }
 
-.fa-radiation:before {
-  content: "\f7b9"; }
-
-.fa-radiation-alt:before {
-  content: "\f7ba"; }
-
-.fa-rainbow:before {
-  content: "\f75b"; }
-
 .fa-random:before {
   content: "\f074"; }
-
-.fa-raspberry-pi:before {
-  content: "\f7bb"; }
 
 .fa-ravelry:before {
   content: "\f2d9"; }
 
 .fa-react:before {
   content: "\f41b"; }
-
-.fa-reacteurope:before {
-  content: "\f75d"; }
 
 .fa-readme:before {
   content: "\f4d5"; }
@@ -10023,9 +9849,6 @@ readers do not read off random characters that represent icons */
 .fa-reddit-square:before {
   content: "\f1a2"; }
 
-.fa-redhat:before {
-  content: "\f7bc"; }
-
 .fa-redo:before {
   content: "\f01e"; }
 
@@ -10047,17 +9870,11 @@ readers do not read off random characters that represent icons */
 .fa-replyd:before {
   content: "\f3e6"; }
 
-.fa-republican:before {
-  content: "\f75e"; }
-
 .fa-researchgate:before {
   content: "\f4f8"; }
 
 .fa-resolving:before {
   content: "\f3e7"; }
-
-.fa-restroom:before {
-  content: "\f7bd"; }
 
 .fa-retweet:before {
   content: "\f079"; }
@@ -10128,12 +9945,6 @@ readers do not read off random characters that represent icons */
 .fa-sass:before {
   content: "\f41e"; }
 
-.fa-satellite:before {
-  content: "\f7bf"; }
-
-.fa-satellite-dish:before {
-  content: "\f7c0"; }
-
 .fa-save:before {
   content: "\f0c7"; }
 
@@ -10151,9 +9962,6 @@ readers do not read off random characters that represent icons */
 
 .fa-scroll:before {
   content: "\f70e"; }
-
-.fa-sd-card:before {
-  content: "\f7c2"; }
 
 .fa-search:before {
   content: "\f002"; }
@@ -10257,9 +10065,6 @@ readers do not read off random characters that represent icons */
 .fa-signature:before {
   content: "\f5b7"; }
 
-.fa-sim-card:before {
-  content: "\f7c4"; }
-
 .fa-simplybuilt:before {
   content: "\f215"; }
 
@@ -10271,18 +10076,6 @@ readers do not read off random characters that represent icons */
 
 .fa-sith:before {
   content: "\f512"; }
-
-.fa-skating:before {
-  content: "\f7c5"; }
-
-.fa-sketch:before {
-  content: "\f7c6"; }
-
-.fa-skiing:before {
-  content: "\f7c9"; }
-
-.fa-skiing-nordic:before {
-  content: "\f7ca"; }
 
 .fa-skull:before {
   content: "\f54c"; }
@@ -10305,9 +10098,6 @@ readers do not read off random characters that represent icons */
 .fa-slash:before {
   content: "\f715"; }
 
-.fa-sleigh:before {
-  content: "\f7cc"; }
-
 .fa-sliders-h:before {
   content: "\f1de"; }
 
@@ -10323,17 +10113,11 @@ readers do not read off random characters that represent icons */
 .fa-smile-wink:before {
   content: "\f4da"; }
 
-.fa-smog:before {
-  content: "\f75f"; }
-
 .fa-smoking:before {
   content: "\f48d"; }
 
 .fa-smoking-ban:before {
   content: "\f54d"; }
-
-.fa-sms:before {
-  content: "\f7cd"; }
 
 .fa-snapchat:before {
   content: "\f2ab"; }
@@ -10344,17 +10128,8 @@ readers do not read off random characters that represent icons */
 .fa-snapchat-square:before {
   content: "\f2ad"; }
 
-.fa-snowboarding:before {
-  content: "\f7ce"; }
-
 .fa-snowflake:before {
   content: "\f2dc"; }
-
-.fa-snowman:before {
-  content: "\f7d0"; }
-
-.fa-snowplow:before {
-  content: "\f7d2"; }
 
 .fa-socks:before {
   content: "\f696"; }
@@ -10391,9 +10166,6 @@ readers do not read off random characters that represent icons */
 
 .fa-soundcloud:before {
   content: "\f1be"; }
-
-.fa-sourcetree:before {
-  content: "\f7d3"; }
 
 .fa-spa:before {
   content: "\f5bb"; }
@@ -10557,9 +10329,6 @@ readers do not read off random characters that represent icons */
 .fa-surprise:before {
   content: "\f5c2"; }
 
-.fa-suse:before {
-  content: "\f7d6"; }
-
 .fa-swatchbook:before {
   content: "\f5c3"; }
 
@@ -10629,17 +10398,8 @@ readers do not read off random characters that represent icons */
 .fa-telegram-plane:before {
   content: "\f3fe"; }
 
-.fa-temperature-high:before {
-  content: "\f769"; }
-
-.fa-temperature-low:before {
-  content: "\f76b"; }
-
 .fa-tencent-weibo:before {
   content: "\f1d5"; }
-
-.fa-tenge:before {
-  content: "\f7d7"; }
 
 .fa-terminal:before {
   content: "\f120"; }
@@ -10725,17 +10485,11 @@ readers do not read off random characters that represent icons */
 .fa-toggle-on:before {
   content: "\f205"; }
 
-.fa-toilet:before {
-  content: "\f7d8"; }
-
 .fa-toilet-paper:before {
   content: "\f71e"; }
 
 .fa-toolbox:before {
   content: "\f552"; }
-
-.fa-tools:before {
-  content: "\f7d9"; }
 
 .fa-tooth:before {
   content: "\f5c9"; }
@@ -10760,9 +10514,6 @@ readers do not read off random characters that represent icons */
 
 .fa-train:before {
   content: "\f238"; }
-
-.fa-tram:before {
-  content: "\f7da"; }
 
 .fa-transgender:before {
   content: "\f224"; }
@@ -10833,9 +10584,6 @@ readers do not read off random characters that represent icons */
 .fa-uber:before {
   content: "\f402"; }
 
-.fa-ubuntu:before {
-  content: "\f7df"; }
-
 .fa-uikit:before {
   content: "\f403"; }
 
@@ -10877,9 +10625,6 @@ readers do not read off random characters that represent icons */
 
 .fa-upload:before {
   content: "\f093"; }
-
-.fa-ups:before {
-  content: "\f7e0"; }
 
 .fa-usb:before {
   content: "\f287"; }
@@ -10958,9 +10703,6 @@ readers do not read off random characters that represent icons */
 
 .fa-users-cog:before {
   content: "\f509"; }
-
-.fa-usps:before {
-  content: "\f7e1"; }
 
 .fa-ussunnah:before {
   content: "\f407"; }
@@ -11046,9 +10788,6 @@ readers do not read off random characters that represent icons */
 .fa-volume-up:before {
   content: "\f028"; }
 
-.fa-vote-yea:before {
-  content: "\f772"; }
-
 .fa-vr-cardboard:before {
   content: "\f729"; }
 
@@ -11063,9 +10802,6 @@ readers do not read off random characters that represent icons */
 
 .fa-warehouse:before {
   content: "\f494"; }
-
-.fa-water:before {
-  content: "\f773"; }
 
 .fa-weebly:before {
   content: "\f5cc"; }
@@ -11184,9 +10920,6 @@ readers do not read off random characters that represent icons */
 .fa-yandex-international:before {
   content: "\f414"; }
 
-.fa-yarn:before {
-  content: "\f7e3"; }
-
 .fa-yelp:before {
   content: "\f1e9"; }
 
@@ -11227,7 +10960,7 @@ readers do not read off random characters that represent icons */
   width: auto; }
 
 /*!
- * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {
@@ -11241,7 +10974,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Brands'; }
 
 /*!
- * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 5.4.2 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @font-face {

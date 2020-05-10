@@ -1,4 +1,4 @@
-ALTER TABLE PasswordResetTickets ADD Constraint
+﻿ALTER TABLE PasswordResetTickets ADD Constraint
                 [FK_PasswordResetTicket.User]
                 FOREIGN KEY ([User])
                 REFERENCES Users (ID)

@@ -1,4 +1,4 @@
--- Settings Table ========================
+﻿-- Settings Table ========================
 CREATE TABLE Settings (
     Id uniqueidentifier PRIMARY KEY NONCLUSTERED,
     Name nvarchar(200)  NOT NULL,

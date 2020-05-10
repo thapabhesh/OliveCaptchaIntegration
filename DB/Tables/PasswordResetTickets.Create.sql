@@ -1,4 +1,4 @@
--- PasswordResetTickets Table ========================
+﻿-- PasswordResetTickets Table ========================
 CREATE TABLE PasswordResetTickets (
     Id uniqueidentifier PRIMARY KEY NONCLUSTERED,
     [User] uniqueidentifier  NOT NULL,
