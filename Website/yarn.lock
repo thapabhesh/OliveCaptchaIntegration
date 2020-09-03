@@ -56,10 +56,10 @@ bootstrap-filestyle@markusslima/bootstrap-filestyle#2.1.0:
   version "2.1.0"
   resolved "https://codeload.github.com/markusslima/bootstrap-filestyle/tar.gz/071ae6f3ff9a49a04346848b05d165e86c50f3b7"
 
-bootstrap-select@1.13.3:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.3.tgz#77f62b72c69339227753b3879cec036039dcb4d9"
-  integrity sha512-XzMwLFqRJQb142zR3ev57bZl66/h/RRguMODVfH0w2YTcJrqU+VCO6CserMxsVF4JE6hX9O99MQGZxgWZiitfg==
+bootstrap-select@1.13.6:
+  version "1.13.6"
+  resolved "https://registry.yarnpkg.com/bootstrap-select/-/bootstrap-select-1.13.6.tgz#dc41f8a7385ab4e385562b400d4cf2422f5ef852"
+  integrity sha512-MsOZjYVv0jjHOCUV6CG3J8MSsosrKL8MlA8DacMhMqFq43tTxMjjd7Czo5a/upKPNHW6asFq29oyKJTrPva6FQ==
 
 bootstrap-spinedit@BrandyMint/bootstrap-spinedit#*:
   version "0.0.0"
