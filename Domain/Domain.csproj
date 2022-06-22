@@ -12,7 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Hangfire" Version="1.7.3" />
     <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.6" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Olive" Version="2.1.188" />
     <PackageReference Include="Olive.Audit" Version="2.1.104" />
     <PackageReference Include="Olive.CSV" Version="2.1.103" />
