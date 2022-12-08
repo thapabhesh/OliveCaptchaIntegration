@@ -33,7 +33,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="2.1.2" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.MicrosoftAccount" Version="2.1.2" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="Olive" Version="2.1.188" />
     <PackageReference Include="Olive.Audit" Version="2.1.104" />
     <PackageReference Include="Olive.Audit.DatabaseLogger" Version="2.1.102" />
